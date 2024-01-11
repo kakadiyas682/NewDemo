@@ -1,0 +1,36 @@
+.progressiveDetail {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 8px 13px -3px;
+    border-radius: 15px;
+}
+
+.boxBorder {
+    background-color: white;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 8px 13px -3px;
+}
+
+.tabComponent {
+    width: max-content;
+    display: flex;
+}
+
+.selectActiveTab {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 8px 13px -3px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0.25rem 0.75rem;
+
+}
+
+.summaryBox {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 10px 10px 43px 10px;
+    border-radius: 20px;
+}
