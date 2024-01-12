@@ -27,7 +27,7 @@ export async function reauthenticate(dispatch) {
 
         return {success: true, data: res}
     } catch (e) {
-        LocalStorageManager.setLocalStorage('estrade_authorized', false)
+        LocalStorageManager.setLocalStorage('estrade_authorized', true)
         return {success: false, msg: e.response};
     }
 }
